@@ -52,13 +52,14 @@ body {
 }
 
 #logo {
-	height: 700px;
+	width: 45vh;
 	text-align: center;
 	animation: fadeIn 3s ease;
 	filter: drop-shadow(13px 10px 50px rgb(64, 0, 0));
 	padding-top: 20vh;
-	margin-bottom: -80px;
 	position: relative; /* Ensures correct stacking order */
+	padding-bottom: 0;
+	margin-bottom: 3vh;
 }
 
 @keyframes fadeIn {
@@ -74,7 +75,8 @@ body {
 
 .entry a {
 	text-decoration: none;
-	font-size: 40px;
+	font-size: 3vh;
+	font-family: "playfair display";
 	color: white;
 	text-align: center;
 
