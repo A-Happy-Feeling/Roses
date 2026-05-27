@@ -504,7 +504,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 100px;
+	gap: 20vw;
 
 	padding: 100px 0;
 }
@@ -587,7 +587,7 @@ p {
 	position: absolute;
 
 	top: 50%;
-	right: -200px;
+	right: -20vw;
 
 	transform: translateY(-50%);
 
@@ -623,7 +623,7 @@ p {
 
 	transform:
 	translateY(-50%)
-	translateX(80px);
+	translateX(1vw);
 }
 
 
@@ -699,6 +699,12 @@ p {
 	font-family: "playfair";
 	line-height: 1.6;
 	margin: 0;
+}
+
+figcaption {
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 8px;
 }
 
 .art p {
@@ -779,7 +785,6 @@ p {
 	padding: 0;
 	margin: 0;
 
-	transition: transform 0.3s ease;
 	cursor: pointer;
 
 	box-shadow: 0 10px 20px rgba(100,100,100,0.4);
@@ -787,7 +792,6 @@ p {
 
 .art img:hover {
 	opacity: 0.8;
-	transform: scale(1.15);
 
 	box-shadow:
 	0 25px 45px rgba(0,0,0,0.5),
