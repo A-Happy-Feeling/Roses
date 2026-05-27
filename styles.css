@@ -56,7 +56,7 @@ body {
 	text-align: center;
 	animation: fadeIn 3s ease;
 	filter: drop-shadow(13px 10px 50px rgb(64, 0, 0));
-	padding-top: 200px;
+	padding-top: 20vh;
 	margin-bottom: -80px;
 	position: relative; /* Ensures correct stacking order */
 }
@@ -158,7 +158,7 @@ body {
 	font-family: "Montserrat";
 	color: white;
 
-	padding: 50px 40px;
+	padding: 50px 20px;
 }
 
 .nav-links a:hover {
@@ -169,7 +169,7 @@ body {
 }
 
 #home {
-	margin-left: 400px;
+	margin-left: 300px;
 }
 
 
@@ -756,12 +756,8 @@ p {
 .joseph a {
 	border: 2px solid rgb(120, 25, 40);
 	background-color: rgb(180, 80, 100);
-	margin-left: 350px;
+	margin: auto;
 	color: white;
-}
-
-.joseph a {
-	margin-left: 300px;
 }
 
 .pierre a, 
@@ -952,34 +948,63 @@ p {
 	transition: transform 0.5s ease;
 }
 
+{
+	outline: 2px solid red;
+}
+
+.tiramisu {
+	width: 37%;
+}
+
 .tiramisu img {
-	width: 600px;
+	width: 100%;
 }
 
 .white-cake img, 
 .cookie img {
-	width: 540px;
+	width: 100%;
 }
 
 .latte img, 
 .lassi img {
-	width: 360px;
+	width: 100%;
 } 
 
 .ladoo img, 
 .water-cake img {
-	width: 435px;
+	width: 100%;
 }
 
 .vanilla-cake img {
-	width: 635px;
+	width: 100%;
 }
 
-.double {
+.ladoo {
+	width: 26.5%;
+}
+
+.water-cake {
+	width: 26.8%;
+}
+
+.vanilla-cake {
+	width: 40%;
+}
+
+.double1,
+.double2 {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 30px;
+}
+
+.double1 {
+	width: 33%;
+}
+
+.double2 {
+	width: 22.3%;
 }
 
 .food_name p {
