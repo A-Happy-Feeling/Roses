@@ -375,7 +375,7 @@ p {
 /* TEXT*/
 .card h3 {
   margin: 10px 0;
-  font-size: 30px;
+  font-size: 3vh;
   font-family: "Open Sans";
   color: white;
 }
@@ -478,21 +478,21 @@ p {
 }
 
 .poem h3 {
-	font-size: 30px;
+	font-size: 3vh;
 	font-family: "playfair";
 	padding: 0;
 	line-height: 1;
 }
 
 .poem h4 {
-	font-size: 25px;
+	font-size: 2.7vh;
 	font-family: "playfair";
 	padding: 0;
 	line-height: 1;
 }
 
 .poem pre {
-	font-size: 20px;
+	font-size: 2vh;
 	font-family: "playfair";
 	letter-spacing: 0.9px;
 	line-height: 1.6;
@@ -507,7 +507,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 20vw;
+	gap: 10vw;
 
 	padding: 100px 0;
 }
@@ -518,6 +518,8 @@ p {
 .a_red_rose,
 .the_white_rose {
 	position: relative;
+	display: flex;
+	gap: 1vh;
 }
 
 .to_a_friend .poem_card {
@@ -563,7 +565,7 @@ p {
 .to_a_friend:hover .poem_card,
 .a_red_rose:hover .poem_card,
 .the_white_rose:hover .poem_card {
-	transform: translateX(-10%);
+	transform: translateX(-50%);
 
 	box-shadow:
 	0 25px 45px rgba(0,0,0,0.5),
@@ -594,7 +596,7 @@ p {
 	position: absolute;
 
 	top: 50%;
-	right: -350px;
+	right: -10vw;
 
 	transform: translateY(-50%);
 
@@ -696,14 +698,14 @@ p {
 }
 
 .art h3 {
-	font-size: 30px;
+	font-size: 3vh;
 	font-family: "playfair";
 	line-height: 1.6;
 	margin: 0;
 }
 
 .art h4 {
-	font-size: 25px;
+	font-size: 2.7vh;
 	font-family: "playfair";
 	line-height: 1.6;
 	margin: 0;
@@ -759,7 +761,7 @@ figcaption {
 	text-decoration: none;
 	border-radius: 20px;
 	font-family: "playfair";
-	font-size: 28px;
+	font-size: clamp(16px, 2vw, 25px);
 	padding: 10px 15px;
 }
 
@@ -895,7 +897,7 @@ figcaption {
   position: absolute;
   top: 20px; right: 30px;
   color: white;
-  font-size: 40px;
+  font-size: 3vh;
   cursor: pointer;
 }
 
@@ -934,8 +936,10 @@ figcaption {
 	margin-top: 10px;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 50px;
+	gap: 5vh;
 	padding: 50px;
+	justify-content: center;
+	align-items: center;
 }
 
 .food_card {
@@ -966,7 +970,7 @@ figcaption {
 }
 
 .tiramisu {
-	width: 37%;
+	width: 35%;
 }
 
 .tiramisu img {
@@ -993,15 +997,15 @@ figcaption {
 }
 
 .ladoo {
-	width: 26.5%;
+	width: 25%;
 }
 
 .water-cake {
-	width: 26.8%;
+	width: 25%;
 }
 
 .vanilla-cake {
-	width: 40%;
+	width: 37%;
 }
 
 .double1,
@@ -1009,15 +1013,15 @@ figcaption {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 30px;
+	gap: 5vh;
 }
 
 .double1 {
-	width: 33%;
+	width: 31%;
 }
 
 .double2 {
-	width: 22.3%;
+	width: 20.5%;
 }
 
 .food_name p {
@@ -1116,13 +1120,13 @@ figcaption {
 	color: white;
 	border: none;
 
-	width: 55px;
-	height: 55px;
+	width: 5vh;
+	height: 5vh;
 	border-radius: 50%;
 
 	cursor: pointer;
 	z-index: 10;
-	font-size: 30px;
+	font-size: 3vh;
 
 	display: flex;
 	justify-content: center;
